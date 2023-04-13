@@ -44,7 +44,7 @@ const MainContent = () => {
             Hi, I’m Dan an experience and Interface designer, currently learning
             how to {""}
             <span className=" bg-[#B9E1EA] px-2">
-              <Link href="/blog" target="_blank">
+              <Link href="https://codesandbox.io/u/dth" target="_blank">
                 make things with code.
               </Link>
             </span>
