@@ -170,7 +170,7 @@ const MainContent = () => {
           </div>
         </div>
 
-        <div className="sm:mx-4">
+        <div className="sm:pl-2 sm:lr-2">
           <IconContext.Provider value={{ color: "#73B0C3" }}>
             <div id="links" className="flex w-full justify-center pt-[80px]">
               <a href="https://twitter.com/__dnth" target="_blank">
