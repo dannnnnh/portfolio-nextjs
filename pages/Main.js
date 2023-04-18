@@ -170,40 +170,39 @@ const MainContent = () => {
           </div>
         </div>
 
-        <div className="sm:pl-2 sm:lr-2">
-          <IconContext.Provider value={{ color: "#73B0C3" }}>
-            <div id="links" className="flex w-full justify-center pt-[80px]">
-              <a href="https://twitter.com/__dnth" target="_blank">
-                <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto ">
-                  <BsTwitter />
-                  <p className="text-[#73B0C3] p-1">Twitter</p>
-                </div>
-              </a>
-              <a href="https://dribbble.com/danth" target="_blank">
-                <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
-                  <BsDribbble />
-                  <p className="text-[#73B0C3] p-1">Dribbble</p>
-                </div>
-              </a>
-              <a href="https://www.linkedin.com/in/dan01/" target="_blank">
-                <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
-                  <BsLinkedin />
-                  <p className="text-[#73B0C3] p-1">Linkedin</p>
-                </div>
-              </a>
-            </div>
-          </IconContext.Provider>
-        </div>
+        <IconContext.Provider value={{ color: "#73B0C3" }}>
+          <div
+            id="links"
+            className="flex flex-col items-center w-full justify-center pt-[80px] sm:flex-row sm:justify-center"
+          >
+            <a href="https://twitter.com/__dnth" target="_blank">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto ">
+                <BsTwitter />
+                <p className="text-[#73B0C3] p-1">Twitter</p>
+              </div>
+            </a>
+            <a href="https://dribbble.com/danth" target="_blank">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
+                <BsDribbble />
+                <p className="text-[#73B0C3] p-1">Dribbble</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/dan01/" target="_blank">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
+                <BsLinkedin />
+                <p className="text-[#73B0C3] p-1">Linkedin</p>
+              </div>
+            </a>
+          </div>
+        </IconContext.Provider>
 
         <div
           id="footer"
           className="flex flex-col w-full items-center justify-center pt-[40px] pb-[40px]"
         >
+      
           <div>
-            <p className="dark:text-[#EEEFF4]">Made in Berlin</p>
-          </div>
-          <div>
-            <p className="dark:text-[#EEEFF4]">
+            <p className="dark:text-[#EEEFF4] text-center">
               Created with tailwind, nextjs and vercel
             </p>
           </div>
