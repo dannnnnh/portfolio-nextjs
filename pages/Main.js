@@ -5,6 +5,7 @@ import {
   BsDribbble,
   BsLinkedin,
   BsFillFileTextFill,
+  BsGithub,
   BsTypeH3,
 } from "react-icons/bs";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -44,7 +45,7 @@ const MainContent = () => {
             Hi, I’m Dan an experience and Interface designer, currently learning
             how to {""}
             <span className=" bg-[#B9E1EA] px-2">
-              <Link href="https://codesandbox.io/u/dth" target="_blank">
+              <Link href="https://twitter.com/__dnth" target="_blank">
                 make things with code.
               </Link>
             </span>
@@ -55,7 +56,7 @@ const MainContent = () => {
         <div id="experience" className="pt-[80px]">
           <div id="title" className="flex items-center">
             <h1 className="ml-1 dark:text-[#EEEFF4] text-[24px]">
-              <BsFillFileTextFill style={{ transform: "rotate(-4deg)" }} />
+              <BsFillFileTextFill style={{ transform: "rotate(-10deg)" }} />
             </h1>
 
             <h2 className="ml-2 dark:text-[#EEEFF4]">Experience</h2>
@@ -107,7 +108,7 @@ const MainContent = () => {
         <div id="projects" className="pt-[80px] ">
           <div id="title" className="flex items-center">
             <h1 className="ml-1 dark:text-[#EEEFF4] text-[24px]">
-              <BsFillFileTextFill style={{ transform: "rotate(-4deg)" }} />
+              <BsFillFileTextFill style={{ transform: "rotate(-10deg)" }} />
             </h1>
 
             <h2 className="ml-2 dark:text-[#EEEFF4]">Case studies</h2>
@@ -170,25 +171,120 @@ const MainContent = () => {
           </div>
         </div>
 
+        {/* Case studies */}
+        <div id="projects" className="pt-[80px] ">
+          <div id="title" className="flex items-center">
+            <h1 className="ml-1 dark:text-[#EEEFF4] text-[24px]">
+              <BsFillFileTextFill style={{ transform: "rotate(-10deg)" }} />
+            </h1>
+
+            <h2 className="ml-2 dark:text-[#EEEFF4]">Other things</h2>
+          </div>
+          <p className=" dark:text-[#E3E5EC] mt-[10px]">
+            Other things i'm spending time doing.
+          </p>
+        </div>
+
+        <div id="otherThings-container" className="pt-8">
+          <Link
+            href="https://www.notion.so/Mimi-hearing-technologies-6d284f848ddf40459a19f07f0ea09258"
+            target="_blank"
+          >
+            <div
+              id="1_thing"
+              className="bg-[#FDFEFF] rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+                <span className="text-slate-500 font-medium m-auto">
+                  Reading
+                </span>
+              </div>
+              <h3 className="dark:text-[#EEEFF4]">The Age of AI</h3>
+
+              <p className="dark:text-[#CECFD8]">
+                "easy to digest introduction into AI. It equips the reader with
+                its basic features, how it works and how it does not."
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#5DB2C5" }}>
+                  <p className="text-[#5DB2C5] p-1">Amazon link</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+          <div
+            id="2_thing"
+            className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+          >
+            <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+              <span className="text-slate-500 font-medium m-auto">
+                Learning
+              </span>
+            </div>
+            <h3 className="dark:text-[#EEEFF4]">
+              Building data driven prototypes
+            </h3>
+
+            <p className="dark:text-[#CECFD8]">
+              Over the past months, i have started to learn to code from
+              scratch. I've being seeing how I can use this knowledge to create
+              realistic protoypes.
+            </p>
+            <div className="flex items-center">
+              <IconContext.Provider value={{ color: "#5DB2C5" }}>
+                <p className="text-[#5DB2C5] p-1">Check codesandbox</p>
+              </IconContext.Provider>
+            </div>
+          </div>
+          <div
+            id="3_thing"
+            className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+          >
+            <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+              <span className="text-slate-500 font-medium m-auto">Writing</span>
+            </div>
+            <h3 className="dark:text-[#EEEFF4]">
+              The future of the design process?
+            </h3>
+
+            <p className="dark:text-[#CECFD8]">
+              How new techninques and tools are changing the way we design.
+            </p>
+            <div className="flex items-center">
+              <IconContext.Provider value={{ color: "#5DB2C5" }}>
+                <p className="text-[#5DB2C5] p-1">Read on substack</p>
+              </IconContext.Provider>
+            </div>
+          </div>
+        </div>
+
         <IconContext.Provider value={{ color: "#73B0C3" }}>
           <div
             id="links"
             className="flex flex-col items-center w-full justify-center pt-[80px] sm:flex-row sm:justify-center"
           >
             <a href="https://twitter.com/__dnth" target="_blank">
-              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto ">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[140px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto ">
                 <BsTwitter />
                 <p className="text-[#73B0C3] p-1">Twitter</p>
               </div>
             </a>
             <a href="https://dribbble.com/danth" target="_blank">
-              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[140px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
                 <BsDribbble />
                 <p className="text-[#73B0C3] p-1">Dribbble</p>
               </div>
             </a>
+            <a href="https://github.com/dannnnnh" target="_blank">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[140px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
+                <div>
+                  <BsGithub />
+                </div>
+                <p className="text-[#73B0C3] p-1 ">Github</p>
+              </div>
+            </a>
             <a href="https://www.linkedin.com/in/dan01/" target="_blank">
-              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[120px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
+              <div className="bg-[#73B0C3] bg-opacity-[0.1] rounded-lg px-2 m-3 w-[140px] h-12 inline-flex items-center justify-center align-middle transition ease-in-out hover:bg-opacity-[0.2] pointer-events-auto">
                 <BsLinkedin />
                 <p className="text-[#73B0C3] p-1">Linkedin</p>
               </div>
@@ -200,7 +296,6 @@ const MainContent = () => {
           id="footer"
           className="flex flex-col w-full items-center justify-center pt-[40px] pb-[40px]"
         >
-      
           <div>
             <p className="dark:text-[#EEEFF4] text-center">
               Created with tailwind, nextjs and vercel

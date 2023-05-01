@@ -14,11 +14,11 @@
   }
 
   h1 {
-    @apply text-[#646464] text-[36px] font-merriweather leading-normal;
+    @apply text-[#555555] text-[36px] font-merriweather leading-normal;
   }
 
   h2 {
-    @apply text-[#646464] text-[30px] font-inter font-medium leading-10;
+    @apply text-[#555555] text-[30px] font-inter font-medium leading-10;
   }
 
   h3 {
@@ -30,11 +30,11 @@
   }
 
   p {
-    @apply text-[#868686] font-inter text-[19px] leading-relaxed font-normal;
+    @apply text-[#656565] font-inter text-[19px] leading-relaxed font-normal;
   }
 
   blockquote {
-    @apply text-[#868686] font-inter text-[18px] leading-7;
+    @apply text-[#6b6a6a] font-inter text-[18px] leading-7;
   }
 
   li {
