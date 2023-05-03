@@ -17,6 +17,7 @@
         "markdown-it": "^13.0.1",
         "next": "13.2.4",
         "next-image-zoom": "^1.1.7",
+        "notion-page-to-html": "^1.2.0",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-icons": "^4.8.0",

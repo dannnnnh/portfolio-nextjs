@@ -10,35 +10,35 @@
 
 @layer base {
   body {
-    @apply bg-[#f8fbfc];
+    @apply bg-[#F6F5F1];
   }
 
   h1 {
-    @apply text-[#555555] text-[36px] font-merriweather leading-normal;
+    @apply text-[#353534] text-[36px] font-merriweather leading-normal;
   }
 
   h2 {
-    @apply text-[#555555] text-[30px] font-inter font-medium leading-10;
+    @apply text-[#353534] text-[30px] font-inter font-medium leading-10;
   }
 
   h3 {
-    @apply text-[#646464] font-inter font-medium text-[23px] leading-10;
+    @apply text-[#353534] font-inter font-medium text-[23px] leading-10;
   }
 
   h4 {
-    @apply text-[#646464] font-inter font-medium text-[28px] leading-10;
+    @apply text-[#353534] font-inter font-medium text-[28px] leading-10;
   }
 
   p {
-    @apply text-[#656565] font-inter text-[19px] leading-relaxed font-normal;
+    @apply text-[#5f5f5d] font-inter text-[19px] leading-relaxed font-normal;
   }
 
   blockquote {
-    @apply text-[#6b6a6a] font-inter text-[18px] leading-7;
+    @apply text-[#353534] font-inter text-[18px] leading-7;
   }
 
   li {
-    @apply text-[#868686] font-inter text-[19px] leading-relaxed font-normal;
+    @apply text-[#353534] font-inter text-[19px] leading-relaxed font-normal;
   }
 
   .font-alegreya {
