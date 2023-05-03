@@ -1,6 +1,5 @@
 import React from "react";
-import Image from 'next/image';
-
+import Image from "next/image";
 
 import {
   BsTwitter,
@@ -87,8 +86,8 @@ const MainContent = () => {
               <b>
                 {" "}
                 Daily tasks involved conceptual sketching, user testing creating
-                documentation and exploring way to bring value for the user to the
-                individual products.
+                documentation and exploring way to bring value for the user to
+                the individual products.
               </b>
             </p>
             <br />
@@ -213,101 +212,91 @@ const MainContent = () => {
             id="1_thing"
             className="bg-[#FDFEFF] rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
-          <div>
-     
-    </div>
-    <Link
-                  href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
-                  target="_blank"
-                >
-            <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
-              <span className="text-[#4AA3B8] font-medium m-auto">Reading</span>
-            </div>
-            <h3 className="dark:text-[#EEEFF4]">The Age of AI</h3>
+            <div></div>
+            <Link
+              href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
+              target="_blank"
+            >
+              <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+                <span className="text-[#4AA3B8] font-medium m-auto">
+                  Reading
+                </span>
+              </div>
+              <h3 className="dark:text-[#EEEFF4]">The Age of AI</h3>
 
-            <p className="dark:text-[#CECFD8]">
-              "easy to digest introduction into AI. It equips the reader with
-              its basic features, how it works and how it does not."
-            </p>
-          
-         
-               
-           
-           <div className="flex items-center">
+              <p className="dark:text-[#CECFD8]">
+                "easy to digest introduction into AI. It equips the reader with
+                its basic features, how it works and how it does not."
+              </p>
+
+              <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
                   <FaArrowRight />
                   <p className="text-[#4AA3B8] p-1">Good reads</p>
                 </IconContext.Provider>
               </div>
-
-              </Link>
-              
-           
-            </div>
-         
+            </Link>
+          </div>
 
           <div
             id="2_thing"
             className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
-             <Link
-                  href="https://elfin-sunfish-47b.notion.site/Data-driven-prototypes-75e48a6acc194308bcb27f96b09901dd"
-                  target="_blank"
-                >
-            <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
-              <span className="text-[#4AA3B8] font-medium m-auto">
-                Learning
-              </span>
-            </div>
-            <h3 className="dark:text-[#EEEFF4]">
-              Building data driven prototypes
-            </h3>
+            <Link
+              href="https://elfin-sunfish-47b.notion.site/Data-driven-prototypes-75e48a6acc194308bcb27f96b09901dd"
+              target="_blank"
+            >
+              <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+                <span className="text-[#4AA3B8] font-medium m-auto">
+                  Learning
+                </span>
+              </div>
+              <h3 className="dark:text-[#EEEFF4]">
+                Building data driven prototypes
+              </h3>
 
-            <p className="dark:text-[#CECFD8]">
-              Over the past months, i have started to learn to code from
-              scratch. I've being seeing how I can use this knowledge to create
-              realistic protoypes.
-            </p>
-           
-           <div className="flex items-center">
+              <p className="dark:text-[#CECFD8]">
+                Over the past months, i have started to learn to code from
+                scratch. I've being seeing how I can use this knowledge to
+                create realistic protoypes.
+              </p>
+
+              <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
                   <FaArrowRight />
-                  <p className="text-[#4AA3B8] p-1">Substack</p>
+                  <p className="text-[#4AA3B8] p-1">Link to article</p>
                 </IconContext.Provider>
               </div>
-
-
-                </Link>
+            </Link>
           </div>
           <div
             id="3_thing"
             className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
-             <Link
-                  href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
-                  target="_blank"
-                >
-            <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
-              <span className="text-[#4AA3B8] font-medium m-auto">Writing</span>
-            </div>
-            <h3 className="dark:text-[#EEEFF4]">
-              The future of the design process?
-            </h3>
+            <Link
+              href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
+              target="_blank"
+            >
+              <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
+                <span className="text-[#4AA3B8] font-medium m-auto">
+                  Writing
+                </span>
+              </div>
+              <h3 className="dark:text-[#EEEFF4]">
+                The future of the design process?
+              </h3>
 
-            <p className="dark:text-[#CECFD8]">
-              How new techninques and tools are changing the way we design.
-            </p>
-           
-           
-           <div className="flex items-center">
+              <p className="dark:text-[#CECFD8]">
+                How new techninques and tools are changing the way we design.
+              </p>
+
+              <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
                   <FaArrowRight />
                   <p className="text-[#4AA3B8] p-1">Substack</p>
                 </IconContext.Provider>
               </div>
-
-
-                </Link>
+            </Link>
           </div>
         </div>
 
