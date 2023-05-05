@@ -274,7 +274,7 @@ const MainContent = () => {
             className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
             <Link
-              href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
+              href="https://elfin-sunfish-47b.notion.site/Future-of-the-design-process-b264cd7e34e24224899253239ddd8024"
               target="_blank"
             >
               <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
@@ -284,7 +284,7 @@ const MainContent = () => {
               </div>
               <h3 className="dark:text-[#EEEFF4]">
                 The future of the design process?
-              </h3>
+              </h3>q
 
               <p className="dark:text-[#CECFD8]">
                 How new techninques and tools are changing the way we design.
