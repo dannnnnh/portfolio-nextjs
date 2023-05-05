@@ -43,8 +43,8 @@ const MainContent = () => {
 
         <div id="intro" className="">
           <h1 className=" dark:text-[#EEEFF4]   ">
-            Hi, I’m Dan an experience and Interface designer, currently learning
-            how to {""}
+            Hi, I’m Dan, an experience and Interface designer, currently
+            learning how to {""}
             <span className=" bg-[#c4e2e8] px-2">
               <Link href="https://twitter.com/__dnth" target="_blank">
                 make things with code.
@@ -80,14 +80,14 @@ const MainContent = () => {
               Senior product designer · 2020 ➞ 2022
             </p>
             <p className="dark:text-[#CECFD8] mt-[8px]">
-              At Mimi i worked within a cross functional team on a range of
-              products that enable the user to listen to audio based on hearing
-              test results.
+              At Mimi, I worked within a cross-functional team on a range of
+              products that enable users to listen to audio based on their
+              hearing test results.
               <b>
                 {" "}
-                Daily tasks involved conceptual sketching, user testing creating
-                documentation and exploring way to bring value for the user to
-                the individual products.
+                Daily tasks involve conceptual sketching, user testing, creating
+                documentation, and exploring ways to bring value to individual
+                products for the user.
               </b>
             </p>
             <br />
@@ -96,13 +96,14 @@ const MainContent = () => {
               Senior UX/UI Designer · 2019 ➞ 2020
             </p>
             <p className="dark:text-[#CECFD8] mt-[8px]">
-              Worked on multiple projects from concept to launch that required a
-              range of skills, from{" "}
+              I have worked on multiple projects from concept to launch. These
+              projects have required a range of skills,{" "}
               <b>
-                UI/UX design to workshops and producing service design
-                documentation
+                including UI/UX design, conducting workshops, and producing
+                service design documentation
               </b>
-              . Some of the companies include Siemens and Bosch.
+              . Some of the companies I have worked with include Siemens and
+              Bosch.
             </p>
             <br />
             <h3 className="dark:text-[#EEEFF4]">Noa technologies</h3>
@@ -110,12 +111,12 @@ const MainContent = () => {
               UX/UI Designer · 2018 ➞ 2019
             </p>
             <p className="dark:text-[#CECFD8] mt-[8px]">
-              Contributing to the design of a bike management system. From the
-              creation of the UI for mobile app and dekstop. Working as the only
-              designer main tasks required working from{" "}
+              Contribution to the design of a bike management system included
+              creating the UI for both mobile and desktop applications. As the
+              sole designer, my main tasks involved working{" "}
               <b>
-                concepts and wireframing to usertesting, protoyping and final
-                assets.
+                from initial concepts and wireframing, to user testing,
+                prototyping, and finalizing assets.
               </b>
             </p>
           </div>
@@ -133,7 +134,7 @@ const MainContent = () => {
             <h2 className="ml-2 dark:text-[#EEEFF4]">Case studies</h2>
           </div>
           <p className=" dark:text-[#E3E5EC] mt-[10px]">
-            Some specific case studies taken from projects i have worked on.
+            Here are some case studies from projects I have worked on.
           </p>
         </div>
 
@@ -152,8 +153,8 @@ const MainContent = () => {
               </h3>
 
               <p className="dark:text-[#CECFD8]">
-                A case study on how to improve the onboarding experience from
-                wireframes to user testing.
+                This document presents a case study on how to improve the
+                onboarding experience, from wireframes to user testing.
               </p>
               <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
@@ -170,8 +171,8 @@ const MainContent = () => {
             <h3 className="dark:text-[#EEEFF4]">Workshop discovery</h3>
 
             <p className="dark:text-[#CECFD8]">
-              Management workshop to understand the problem and how it can be
-              solved.
+              Organizes a management workshop to understand the problem and find
+              a solution.
             </p>
             <div className="flex items-center">
               <IconContext.Provider value={{ color: "#4AA3B8" }}>
@@ -186,7 +187,7 @@ const MainContent = () => {
             <h3 className="dark:text-[#EEEFF4]">More in progress..</h3>
 
             <p className="dark:text-[#CECFD8]">
-              Shortly adding some more case studies.
+              We will shortly be adding more case studies.
             </p>
           </div>
         </div>
@@ -256,9 +257,9 @@ const MainContent = () => {
               </h3>
 
               <p className="dark:text-[#CECFD8]">
-                Over the past months, i have started to learn to code from
-                scratch. I've being seeing how I can use this knowledge to
-                create realistic protoypes.
+                Over the past few months, I have started learning to code from
+                scratch. I have been exploring how to use this knowledge to
+                create realistic prototypes.
               </p>
 
               <div className="flex items-center">
@@ -283,11 +284,11 @@ const MainContent = () => {
                 </span>
               </div>
               <h3 className="dark:text-[#EEEFF4]">
-                The future of the design process?
+                The future of the design process
               </h3>
 
               <p className="dark:text-[#CECFD8]">
-                How new techninques and tools are changing the way we design.
+                How new techniques and tools are changing the way we design.{" "}
               </p>
 
               <div className="flex items-center">
