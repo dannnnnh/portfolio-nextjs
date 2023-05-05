@@ -284,7 +284,7 @@ const MainContent = () => {
               </div>
               <h3 className="dark:text-[#EEEFF4]">
                 The future of the design process?
-              </h3>q
+              </h3>
 
               <p className="dark:text-[#CECFD8]">
                 How new techninques and tools are changing the way we design.
@@ -293,7 +293,7 @@ const MainContent = () => {
               <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
                   <FaArrowRight />
-                  <p className="text-[#4AA3B8] p-1">Substack</p>
+                  <p className="text-[#4AA3B8] p-1">Link to article</p>
                 </IconContext.Provider>
               </div>
             </Link>
