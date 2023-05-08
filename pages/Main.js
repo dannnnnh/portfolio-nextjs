@@ -8,6 +8,7 @@ import {
   BsFillFileTextFill,
   BsGithub,
   BsTypeH3,
+  BsFillCupHotFill,
 } from "react-icons/bs";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -53,8 +54,50 @@ const MainContent = () => {
           </h1>
         </div>
 
+        <div
+          id="Update"
+          className=" mt-[40px] pr-[24px] pl-[24px] pt-2 pb-4 border-2 border-[#62a1b669] rounded-lg border-dashed  dark:bg-[#363639] dark:border-none"
+        >
+          <div className="flex-col items-center mt-2">
+            <p className="text-[16px] font-medium">🌳 May 2023</p>
+            <p className=" leading-relaxed">
+              Almost finished reading 🤖{" "}
+              <Link
+                href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
+                target="_blank"
+              >
+                <span className="underline-offset-2 underline decoration-2 text-[#4AA3B8] ">
+                  Age of AI.
+                </span>{" "}
+              </Link>
+              Also listening to some cool tunes from 🎶{" "}
+              <Link
+                href="https://www.youtube.com/watch?v=CFQWDukmRSQ"
+                target="_blank"
+              >
+                <span className="underline-offset-2 underline decoration-2 text-[#4AA3B8] ">
+                  Gitkin - grand street feast
+                </span>{" "}
+              </Link>
+              and 🎶{" "}
+              <Link href="https://youtu.be/7IZOdI2jdKU" target="_blank">
+                <span className="underline-offset-2 underline decoration-2 text-[#4AA3B8] ">
+                  Nils frahm.
+                </span>{" "}
+              </Link>
+              An article I recently read again 📝{" "}
+              <Link href="https://ralphammer.com/make-me-think" target="_blank">
+                <span className="underline-offset-2 underline decoration-2 text-[#4AA3B8] ">
+                  Make me think - Ralph Ammer
+                </span>{" "}
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+
         {/* Experience */}
-        <div id="experience" className="pt-[80px]">
+        <div id="experience" className="pt-[40px]">
           <div id="title" className="flex items-center">
             <h1 className="ml-1 dark:text-[#EEEFF4] text-[24px]">
               <IconContext.Provider value={{ color: "#4AA3B8" }}>
@@ -214,26 +257,24 @@ const MainContent = () => {
             className="bg-[#FDFEFF] rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
             <div></div>
-            <Link
-              href="https://www.goodreads.com/book/show/56620811-the-age-of-ai-and-our-human-future"
-              target="_blank"
-            >
+            <Link href="./Booklist" target="_blank">
               <div className="w-[100px] h-[32px] bg-slate-100 rounded-lg flex flex-col mb-[8px]">
                 <span className="text-[#4AA3B8] font-medium m-auto">
                   Reading
                 </span>
               </div>
-              <h3 className="dark:text-[#EEEFF4]">The Age of AI</h3>
+              <h3 className="dark:text-[#EEEFF4]">
+                Books organised by interests
+              </h3>
 
               <p className="dark:text-[#CECFD8]">
-                "easy to digest introduction into AI. It equips the reader with
-                its basic features, how it works and how it does not."
+                List of books based on my interests from design to the outdoors.
               </p>
 
               <div className="flex items-center">
                 <IconContext.Provider value={{ color: "#4AA3B8" }}>
                   <FaArrowRight />
-                  <p className="text-[#4AA3B8] p-1">Good reads</p>
+                  <p className="text-[#4AA3B8] p-1">Check it</p>
                 </IconContext.Provider>
               </div>
             </Link>
