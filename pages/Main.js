@@ -120,7 +120,7 @@ const MainContent = () => {
           >
             <h3 className="dark:text-[#EEEFF4]">Mimi hearing technologies</h3>
             <p className="dark:text-[#EEEFF4] font-medium">
-              Senior product designer · 2020 ➞ 2022
+              Senior product designer · 2020 ➞ 2023
             </p>
             <p className="dark:text-[#CECFD8] mt-[8px]">
               At Mimi, I worked within a cross-functional team on a range of
