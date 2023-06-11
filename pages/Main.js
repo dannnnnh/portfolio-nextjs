@@ -58,7 +58,7 @@ const MainContent = () => {
           id="Update"
           className=" mt-[40px] pr-[24px] pl-[24px] pt-2 pb-4 border-2 border-[#62a1b669] rounded-lg border-dashed  dark:bg-[#363639] dark:border-none"
         > */}
-          {/* <div className="flex-col items-center mt-2">
+        {/* <div className="flex-col items-center mt-2">
             <p className="text-[16px] font-medium">🌳 May 2023</p>
             <p className=" leading-relaxed">
               Almost finished reading 🤖{" "}
@@ -311,11 +311,11 @@ const MainContent = () => {
               </div>
             </Link>
           </div>
-          <div
+          {/* <div
             id="3_thing"
             className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
           >
-            {/* <Link
+            <Link
               href="https://elfin-sunfish-47b.notion.site/Future-of-the-design-process-b264cd7e34e24224899253239ddd8024"
               target="_blank"
             >
@@ -338,8 +338,8 @@ const MainContent = () => {
                   <p className="text-[#4AA3B8] p-1">Link to article</p>
                 </IconContext.Provider>
               </div>
-            </Link> */}
-          </div>
+            </Link>
+          </div> */}
         </div>
 
         <IconContext.Provider value={{ color: "#4AA3B8" }}>
