@@ -58,7 +58,7 @@ const MainContent = () => {
           id="Update"
           className=" mt-[40px] pr-[24px] pl-[24px] pt-2 pb-4 border-2 border-[#62a1b669] rounded-lg border-dashed  dark:bg-[#363639] dark:border-none"
         >
-          <div className="flex-col items-center mt-2">
+          {/* <div className="flex-col items-center mt-2">
             <p className="text-[16px] font-medium">🌳 May 2023</p>
             <p className=" leading-relaxed">
               Almost finished reading 🤖{" "}
@@ -93,7 +93,7 @@ const MainContent = () => {
               </Link>
               .
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Experience */}
