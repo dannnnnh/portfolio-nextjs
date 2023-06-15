@@ -235,6 +235,168 @@ const MainContent = () => {
           </div>
         </div>
 
+        {/* Web Dev */}
+        <div id="projects" className="pt-[80px] ">
+          <div id="title" className="flex items-center">
+            <h1 className="ml-1 dark:text-[#EEEFF4] text-[24px]">
+              <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                <BsFillFileTextFill style={{ transform: "rotate(-10deg)" }} />
+              </IconContext.Provider>
+            </h1>
+
+            <h2 className="ml-2 dark:text-[#EEEFF4]">
+              Web development projects
+            </h2>
+          </div>
+          <p className=" dark:text-[#E3E5EC] mt-[10px]">
+            Through learning web development, I have built a few projects.
+          </p>
+        </div>
+
+        <div id="caseStudy-container" className="pt-8">
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/simple-js-app"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">Pokedex app</h3>
+
+              <p className="dark:text-[#CECFD8]">
+              This Pokédex is a web application built with HTML, CSS, and primarily JavaScript. It loads data from an external API and enables the detailed viewing of that data.
+
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/movie-api"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] mt-4 rounded-[18px] p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">API - movie app</h3>
+
+              <p className="dark:text-[#CECFD8]">
+              This API is the server-side component of a movie web application. The web app enables users to access information about various movies, including their directors and genres..
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/myFlix-client"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] rounded-[18px] mt-4 p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">React - movie app</h3>
+
+              <p className="dark:text-[#CECFD8]">
+              This is a single-page, responsive application (SPA) that serves as the client-side for an application called myFlix. It is based on existing server-side code (REST API and database).
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/meet"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] rounded-[18px] mt-4 p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">Meet app</h3>
+
+              <p className="dark:text-[#CECFD8]">
+              Meet App is a serverless, progressive web application (PWA) that is built with React using test-driven development (TDD) techniques. The application uses the Google Calendar API to fetch upcoming events.
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/chatApp-react-native"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] rounded-[18px] mt-4 p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">Chat app</h3>
+
+              <p className="dark:text-[#CECFD8]">
+              The Chat App was built for mobile devices using React Native. The app provides users with a chat interface and options to share images and their location.
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            //link to the
+            target="_blank"
+            href="https://github.com/dannnnnh/myFlix-Angular-client"
+          >
+            <div
+              id="1_caseStudy"
+              className="bg-[#FDFEFF] rounded-[18px] mt-4 p-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.06)] hover:drop-shadow-[0_2px_3px_rgba(0,0,0,0.1)] hover:border-blue-300 cursor-pointer dark:bg-[#363639] dark:border-none"
+            >
+              <h3 className="dark:text-[#EEEFF4]">
+                Angular - movie app
+
+              </h3>
+
+              <p className="dark:text-[#CECFD8]">
+              This single-page application (SPA) is built with Angular, using the same movie API as the React app.
+              </p>
+              <div className="flex items-center">
+                <IconContext.Provider value={{ color: "#4AA3B8" }}>
+                  <FaArrowRight />
+                  <p className="text-[#4AA3B8] p-1">Read more</p>
+                </IconContext.Provider>
+              </div>
+            </div>
+          </Link>
+        </div>
+
         {/* Case studies */}
         <div id="projects" className="pt-[80px] ">
           <div id="title" className="flex items-center">
